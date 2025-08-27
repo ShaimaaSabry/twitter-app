@@ -1,0 +1,52 @@
+.tweetListContainer {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.tweetList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+  width: 100%;
+}
+
+.tweetListItem {
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  padding: 12px;
+  background: #fff;
+  width: 100%;
+}
+
+.tweetListItemContent {
+  display: flex;
+  gap: 12px;
+}
+
+.tweetAvatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tweetMain {
+  flex: 1;
+}
+
+.tweetHeader {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.tweetHandle {
+  color: #687684;
+}
+
+.tweetText {
+  margin: 6px 0 0 0;
+  line-height: 1.4;
+}
+

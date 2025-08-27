@@ -1,0 +1,29 @@
+.timelineContainer {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.timelineHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.timelineTitle {
+  margin: 0;
+  font-size: 24px;
+}
+
+.timelineHomeLink {
+  margin-left: auto;
+  text-decoration: underline;
+}
+
