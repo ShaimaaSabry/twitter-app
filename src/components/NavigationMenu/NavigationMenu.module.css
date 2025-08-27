@@ -1,0 +1,31 @@
+.navMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 0 0 0 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.navMenuLink {
+  text-decoration: none;
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.navMenuLink:hover {
+  color: #1DA1F2;
+}
