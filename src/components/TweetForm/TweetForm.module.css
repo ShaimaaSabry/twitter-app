@@ -1,0 +1,44 @@
+.tweetFormContainer {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.tweetForm {
+  margin-bottom: 24px;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  padding: 12px;
+  width: 100%;
+}
+
+.tweetTextarea {
+  width: 100%;
+  resize: vertical;
+  font-size: 16px;
+  padding: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  min-height: 64px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.tweetFormActions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.tweetFormButton {
+  padding: 6px 18px;
+  border-radius: 8px;
+  background: #1da1f2;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+}
+

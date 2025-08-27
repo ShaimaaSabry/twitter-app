@@ -1,0 +1,80 @@
+.tweetListContainer {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.tweetList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+  width: 100%;
+}
+
+.tweetListItem {
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  padding: 12px;
+  background: #fff;
+  width: 100%;
+}
+
+.tweetListItemContent {
+  display: flex;
+  gap: 12px;
+}
+
+.tweetAvatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tweetMain {
+  flex: 1;
+}
+
+.tweetMeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.tweetHeader {
+  display: flex;
+  flex-direction: column; /* stack name and handle */
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.tweetAuthorName {
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.tweetHandle {
+  color: #687684;
+}
+
+.tweetText {
+  margin: 6px 0 0 0; /* removed left indent */
+  line-height: 1.4;
+  text-align: left;
+}
+
+.tweetTime {
+  margin-top: 2px;
+  font-size: 12px;
+  color: #8899a6;
+  text-align: left;
+}
+
+.authorRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}

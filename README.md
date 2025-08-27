@@ -1,3 +1,21 @@
+# Twitter 
+
+backend service: https://github.com/ShaimaaSabry/twitter
+
+## Technologies
+
+- React
+- TypeScript
+- Vite
+- Yarn
+
+## Authors & Copyrights
+
+Shaimaa Sabry
+
+[![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/ShaimaaSabry)
+[![LinkedIn](https://img.icons8.com/ios-filled/30/0A66C2/linkedin.png)](https://www.linkedin.com/in/shaimaa-sabry-161b71a0/)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -1,0 +1,39 @@
+.followBtn {
+  border: 1px solid #1d9bf0;
+  background: #1d9bf0;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1;
+  padding: 4px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background .15s ease, border-color .15s ease, color .15s ease;
+}
+.followBtn:focus {
+  outline: 2px solid #0a7bc1;
+  outline-offset: 2px;
+}
+.followAction:hover:not(:disabled) {
+  background: #0c85d0;
+  border-color: #0c85d0;
+}
+.following {
+  background: #fff;
+  color: #1d9bf0;
+  border-color: #1d9bf0;
+  cursor: default;
+}
+.following:disabled {
+  opacity: 0.9;
+}
+.requested {
+  background: #e2e8f0;
+  border-color: #cbd5e1;
+  color: #475569;
+  cursor: default;
+}
+.requested:disabled {
+  opacity: 0.85;
+}
+

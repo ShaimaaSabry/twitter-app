@@ -1,13 +1,17 @@
 import { useState } from 'react'
+import { Route, Routes } from 'react-router-dom'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Timeline from './pages/Timeline/Timeline.tsx'
+import Profile from "./pages/Profile/Profile.tsx";
+import NavigationMenu from './components/NavigationMenu/NavigationMenu.tsx';
 
-function App() {
+function Home() {
   const [count, setCount] = useState(0)
-
   return (
     <>
+      <NavigationMenu />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -29,6 +33,18 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
+  )
+}
+
+function App() {
+  return (
+    <div style={{ padding: 16 }}>
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/timeline" element={<Timeline />} />
+          <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </div>
   )
 }
 
